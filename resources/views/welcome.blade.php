@@ -57,7 +57,6 @@
                                         <a href="dashboard.blade.php" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </a>
-                                        <button type="submit"></button>
                                     </form>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/laporankry', function () {
-    return view('laporankry');
+Route::get('dashboard', function () {
+    return view('dashboard');
 });
